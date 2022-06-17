@@ -133,7 +133,23 @@ div {
                             border: 1px solid $green;
                     }
 
-                   
+                   .errorcontainer{
+                    text-align:right;
+                    margin-top:10px;
+                    margin-right:40px;
+                    display:none;
+
+                    span {
+                            color: $red;
+                            font-size: 0.65rem;
+                            margin-right:10px;
+                            @include font-500();
+                        }
+
+                    img{
+                        width:4%;
+                    }
+                   }
                     }
                                          p {
                                              font-size: 0.64rem;

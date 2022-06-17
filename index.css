@@ -124,6 +124,24 @@ div {
   border: 1px solid #38cc8c;
 }
 
+.flex-container .form-container .form-direction .form form .errorcontainer {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 40px;
+  display: none;
+}
+
+.flex-container .form-container .form-direction .form form .errorcontainer span {
+  color: #ff7a7a;
+  font-size: 0.65rem;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.flex-container .form-container .form-direction .form form .errorcontainer img {
+  width: 4%;
+}
+
 .flex-container .form-container .form-direction .form p {
   font-size: 0.64rem;
   color: #b9b6d3;
